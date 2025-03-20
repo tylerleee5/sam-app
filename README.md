@@ -1,2 +1,3 @@
 # sam-app
-my first repository on GitHub
+My first repository on GitHub.
+This is for lab on AWS
