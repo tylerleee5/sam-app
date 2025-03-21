@@ -4,8 +4,7 @@ import json
 
 
 def lambda_handler(event, context):
-    if True:
-        raise Exception("This will cause a deployment rollback")
+   
         
     """Sample pure Lambda function
     
