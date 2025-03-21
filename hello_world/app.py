@@ -4,8 +4,11 @@ import json
 
 
 def lambda_handler(event, context):
+    if True:
+        raise Exception("This will cause a deployment rollback")
+        
     """Sample pure Lambda function
-
+    
     Parameters
     ----------
     event: dict, required
@@ -33,6 +36,7 @@ def lambda_handler(event, context):
 
     #     raise e
 
+        
     return {
         "statusCode": 200,
         "body": json.dumps({
